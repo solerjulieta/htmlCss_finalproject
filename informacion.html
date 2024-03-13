@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	
+	<title>Información</title>
+	
+   <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+<div class="contenedor">
+
+ <header id="rosa">
+  <h1>Información indispensable para tu viaje</h1>
+ <nav>
+    <a href="#menu" id="menuham">Menu</a>
+    <ul id="menu">
+	   <li><a href="#"><span id="cerrar">x</span></a></li>
+  	   <li><a href="index.html">Inicio</a></li>
+		<li><a href="itinerario.html">Itinerario</a></li>
+		<li><a href="informacion.html" class="aqui">Información</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+    </ul>
+ </nav> 
+</header>
+
+<div class="portada">
+ <div id="banner" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="200">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="navega a la imagen de portada 1"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="navega a la imagen de portada 2"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="navega a la imagen de portada 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileinfo.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletinfo.jpg">
+      <img src="imagenes/portadainfo.jpg" class="d-block w-100" alt="Ciudad de La Habana y bandera cubana">
+      </picture>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileinfo2.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletinfo1.jpg">
+      <img src="imagenes/portadainfo2.jpg" class="d-block w-100" alt="Edificio con bandera cubana">
+      </picture>
+    </div>
+      
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileinfo3.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletinfo2.jpg"> 
+      <img src="imagenes/portadainfo3.jpg" class="d-block w-100" alt="Vista de la ciudad desde el Castillo del Morro y bandera cubana">
+      </picture>
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+<main>
+
+ <ul id="iconosinfo">
+  <li id="trapre"><a href="#tra">Trámites</a></li>
+  <li id="mon"><a href="#mda">Moneda</a></li>
+  <li id="cuanvi"><a href="#cdo">Cuándo viajar</a></li>
+  <li id="aloja"><a href="#al">Alojamiento</a></li>
+  <li id="transp"><a href="#trans">Transporte</a></li>
+  <li id="donco"><a href="#dnd">Dónde comer</a></li>
+ </ul>
+ 
+ <section id="tra">
+
+  <picture class="imgizq">
+  <source srcset="imagenes/visamobile.jpg" media="(max-width:480px)" />
+  <source srcset="imagenes/visatablet.jpg" media="(max-width:800px)" />
+  <img src="imagenes/visa2.jpg" alt="visa cubana y pasaporte" />
+  </picture>
+  <div class="txtder">
+  <h2>Trámites previos</h2>
+  <p><em class="sinitalic">Recordá que <span class="negrita">es necesario tramitar un visado para ingresar a la isla.</span><br/> El trámite puede hacerse en el consulado cubano, con una agencia de viajes o con la aerolínea en el aeropuerto.</em></p>
+  </div>
+
+ </section>
+ 
+ <section id="mda">
+
+ <picture class="imgder">
+ <source srcset="imagenes/monedamobile.jpg" media="(max-width:480px)"  />
+ <source srcset="imagenes/monedatablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/moneda2.jpg" alt="Billetes y monedas del peso cubano convertible" />
+ </picture>
+ <div class="txtizq">
+ <h2>La moneda</h2>
+ <p><strong class="sinnegrita">En Cuba se usan dos monedas: <abbr title="Peso Cubano">CUP</abbr>, por un lado, y el <abbr title="Peso Cubano Convertible">CUC</abbr>, por otro lado. El CUP tiene una cotización menor respecto del dólar que el CUC, creado para el turista. Hay que tener en cuenta que algunos comercios sólo reciben moneda nacional, otro las dos y otros sólo CUC.<br/><span class="negrita">Dato:</span> no conviene llegar a la isla con dólares estadounidenses porque cobran una comisión para cambiarlos.</strong></p>
+ </div>
+ </section>
+ 
+ <section id="cdo">
+
+ <h2>La mejor época para viajar</h2>
+ <p>Los mejores meses para viajar a Cuba son desde mediados de noviembre hasta mediados de abril, durante la temporada seca. <br/>En esa época se registran temperaturas más suaves y menos lluvias, y no hay riesgo de huracanes.</p>
+ <p>Por otro lado, febrero es una de las mejores épocas para visitar la capital cubana, ya que es cuando se celebran el Festival Internacional de Jazz y el Triatlón de La Habana, mientras que en octubre se celebra el Festival Internacional de Ballet. Durante el mes de noviembre se lleva a cabo el Maratón de La Habana. Por último, el mes más concurrido y animado es diciembre, ya que es cuando tiene lugar el Festival del Nuevo Cine Latinoamericano y con el comienzo del año, los días 1 y 2 de enero, se celebran el Triunfo de la Revolución Cubana y el Día de la Victoria.</p>
+ 
+  <h3>Próximos Eventos:</h3>
+  
+  <article>
+  <picture>
+  <source srcset="imagenes/conmemoracionmobile.jpg" media="(max-width:480px)" />
+  <source srcset="imagenes/conmemoraciontablet.jpg" media="(max-width:800px)" />
+  <img src="imagenes/conmemoracion.jpg" alt="Foto de conmemoracion" />
+  </picture>
+  <h4>CONMEMORACIÓN</h4>
+  <p><strong class="sinnegrita">Cuba celebra cada año la fecha de los asaltos a los cuarteles Moncada y Carlos Manuel de Céspedes, como hecho luctuoso y heroico por la sangre derramada.</strong>Se conmemora el ataque al cuartel Moncada, con un discurso político y por la noche show musical y danzas.</p>
+  <ul>
+   <li>Fecha: 25, 26 y 27 de Julio </li>
+   <li>Lugar: El Capitolio </li>
+   <li><a href="https://www.telesurtv.net/news/Asalto-al-Moncada-cambio-rumbo-de-la-historia-de-Cuba-20170726-0012.html" target="_blank"> + INFO </a></li>
+  </ul>
+  </article>  
+  
+  <article>
+  <picture>
+  <source srcset="imagenes/cubadanzamobile.jpg" media="(max-width:480px)" />
+  <source srcset="imagenes/cubadanzatablet.jpg" media="(max-width:800px)" />
+  <img src="imagenes/cubadanza.jpg" alt="Gente bailando danza contemporánea" />
+  </picture>
+  <h4>CUBADANZA</h4>
+  <p>Festival de verano de danza cubana, en la Compañía Contemporánea de Danza.
+  Este taller está dirigido a bailarines y estudiantes profesionales, enseña diferentes ritmos y bailes populares cubanos basados en la danza moderna cubana.</p>
+  <ul>
+   <li>Fecha: 02/08/2021</li>
+   <li>Lugar: Teatro Nacional de Cuba</li>
+   <li><a href="https://www.mateamargo.org.uy/2013/12/27/cubadanza/" target="_blank"> + INFO </a></li>
+  </ul>
+  </article>
+  
+  <article>
+  <picture>
+  <source srcset="imagenes/carnavalmobile.jpg" media="(max-width:480px)"  />
+  <source srcset="imagenes/carnavaltablet.jpg" media="(max-width:800px)" />
+  <img src="imagenes/carnaval.jpg" alt="Comparsa con trajes tradicionales" />
+  </picture>
+  <h4>CARNAVAL</h4>
+  <p><strong class="sinnegrita">El Carnaval es uno de los eventos más valiosos para la cultura y tradición cubana. Constituida por dos fines de semana, es una fiesta que deslumbra con actividades entre las que destacan los bailes y conciertos que enaltecen la riqueza musical de esta isla.</strong></p>
+  <ul>
+   <li>Fecha: 14, 15, 21 y 22 de agosto</li>
+   <li>Lugar: El Malecón</li>
+   <li><a href="https://www.carnivaland.net/es/carnaval-habana/" target="_blank">+ INFO</a></li>
+  </ul>
+  </article>
+
+ </section>
+ 
+ <section id="al">
+
+ <div class="imgizq"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29354.234456552003!2d-82.38628168636242!3d23.123463876563367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLa%20Habana%2C%20Cuba%20hoteles!5e0!3m2!1ses!2sar!4v1627997124844!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+ <div class="txtder">
+ <h2>Dónde Alojarse</h2>
+ <p>En La Habana hay diferentes posibilidades de alojamiento: hoteles de lujo, hostales (alojamientos más chicos y económicos) y <span lang="en">“guest houses”</span>, casas particulares autorizadas por el Gobierno que ofrecen habitación privada con baño y son más económicas.</p>
+ <h3>Si escoges hoteles:</h3>
+ <p>Instalarse en la zona de La Habana Vieja es ideal si quieres estar cerca de los principales lugares de interés. Puedes escoger los hoteles Ambos Mundos, Florida, El Comendador o Santa Isabel si buscas una experiencia exclusiva. El Plaza y el Saratoga son buenas opciones si prefieres establecimientos céntricos. Si deseas quedarte en el Vedado, el Nacional y el ROC presidente son fantásticos hoteles.</p>
+ </div>
+ 
+ <div class="fotosinfo">
+ <figure>
+ <picture>
+ <source srcset="imagenes/hotelmobile.jpg" media="(max-width:480px)"  />
+ <img src="imagenes/hotel1.jpg" alt="Hotel Ambos Mundos" />
+ </picture>
+ <figcaption><a href="https://www.hotelambosmundoshabana.com/es/" target="_blank">"Hotel Ambos Mundos"</a></figcaption>
+ </figure>
+ 
+ <figure>
+ <picture>
+ <source srcset="imagenes/hostalmobile.jpg" media="(max-width:480px)" />
+ <img src="imagenes/hostal1.jpg" alt="Hostal Marques de Liz" />
+ </picture>
+ <figcaption><a href="https://hostalmarquezdeliz.jimdofree.com/" target="_blank">"Hostal Marques de Liz"</a></figcaption>
+ </figure>
+ 
+ <figure>
+ <picture>
+ <source srcset="imagenes/guesthousemobile.jpg" media="(max-width:480px)"  />
+ <img src="imagenes/house1.jpg" alt="GuestHouse Casa Flamboyan" />
+ </picture>
+ <figcaption><a href="http://lacasaflamboyan.com/es/" target="_blank">"Guest House Casa Flamboyan"</a></figcaption>
+ </figure>
+ </div>
+
+ </section>
+ 
+ <section id="trans">
+
+ <h2>Cómo moverse</h2>
+ <p>Existen varias opciones para movilizarse en la capital cubana: están los “almendrones”, autos antiguos que funcionan como taxis compartidos (algunos con rutas fijas); las “guaguas”, colectivos pequeños con recorridos y paradas establecidas; y las bici-taxis, carros tirados por bicicletas en los que la tarifa se acuerda con el conductor.</p>
+ 
+ <div class="fotosinfo">
+ <div id="taxi">
+ <picture>
+ <source srcset="imagenes/taximobile.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/taxitablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/taxi.jpg" alt="Taxi Cubano" />
+ </picture>
+ <h3>"Almendrón", taxi</h3>
+ <p>Desplazarte en un viejo automóvil estadounidense es más barato. 
+ Pacta el precio antes de subir, muchos vehículos no tienen taxímetro. El precio base es $1 CUC y $0,50 CUC por km recorrido. </p>
+ </div>
+ 
+ <div id="guagua">
+ <picture>
+ <source srcset="imagenes/colectmobile.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/colectivotablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/colect.jpg" alt="Colectivo de Cuba" />
+ </picture>
+ <h3>"Guagua", colectivo</h3>
+ <p>Viajar en autobús por La Habana es económico. Solo pagarás $1 CUC por el boleto. La desventaja del transporte público es que las rutas y los horarios no siempre son fiables ni comprensibles.</p>
+ </div>
+ 
+ <div id="bicitaxi">
+ <picture>
+ <source srcset="imagenes/bicitaximobile.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/bicitaxitablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/bicitaxi.jpg" alt="Bici Taxi" />
+ </picture>
+ <h3>Bicitaxi</h3>
+ <p>Las bicitaxis son un medio de transporte muy popular y de gran utilidad en la ciudad. La bicitaxi es más lenta ya que es un triciclo gigante conducida por un cubano y es sólo para dos pasajeros.</p>
+ </div>
+ </div>
+
+ </section>
+ 
+ <section id="dnd">
+  
+ <h2>Dónde comer</h2>
+ <p>Los “paladares”, comedores donde sirven platos abundantes y típicos a precios muy económicos (desde $1 CUC) son una experiencia gastronómica que no te podes perder. Prueba algunos platos cubanos populares, como carnes a la brasa, arroz y frijoles, ropa vieja. En comida tradicional caribeña, el Restaurante Café del Oriente, La Guarida y Bella Habana son incomparables. Para experimentar la mezcla de influencias chinas y caribeñas, Flor de Loto y Tien Tan. Para comer mariscos, El Litoral, Mediterráneo Havana y Paladar Vistamar son excelentes. Pedí los sándwiches tradicionales en Bar Bilbao o La Dichosa y busca a los vendedores ambulantes de comida que sirven hamburguesas de cerdo y pasteles de coco. En la calle podes comer por entre $5 y $8 CUC; en un restaurante cuidado, a partir de $40 CUC.</p>
+ 
+ <div class="fotosinfo">
+ <figure>
+ <picture>
+ <source srcset="imagenes/paladarmobile.jpg" media="(max-width:480px)" />
+ <img src="imagenes/paladar.jpg" alt="Foto del Paladar Doña Eutimia" />
+ </picture>
+ <figcaption><a href="http://donaeutimia.restaurantwebexperts.com/" target="_blank">"Paladar Doña Eutimia"</a></figcaption>
+ </figure>
+ <figure>
+ <picture>
+ <source srcset="imagenes/laguaridamobile.jpg" media="(max-width:480px)" />
+ <img src="imagenes/laguarida.jpg" alt="Foto del restaurante La Guarida" />
+ </picture>
+ <figcaption><a href="https://laguarida.com/" target="_blank">"Restaurant La Guarida"</a></figcaption>
+ </figure>
+ <figure>
+ <picture>
+ <source srcset="imagenes/paladarvistamobile.jpg" media="(max-width:480px)" />
+ <img src="imagenes/paladarvista.jpg" alt="Foto del paladar con vista al mar" />
+ </picture>
+ <figcaption><a href="https://www.facebook.com/paladarvistamar/" target="_blank">"Paladar Vista al Mar"</a></figcaption>
+ </figure>
+ </div>
+ 
+ <h3>Algunos platos típicos:</h3>
+ 
+ <div id="infocomida">
+ <div id="ropavieja">
+ <picture>
+ <source srcset="imagenes/ropaviejamobile.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/ropaviejatablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/ropavieja.jpg" alt="Plato de comida ropa vieja" />
+ </picture>
+ <h4>Ropa Vieja</h4>
+ <p>Esta típica comida cubana se llama así por el aspecto deshilachado de la carne de ternera o de cerdo que preside el plato. Se le suele añadir cebolla, ají dulce, pimiento o tomate, entre otros ingredientes.</p>
+ </div>
+ <div id="moros">
+ <picture>
+ <source srcset="imagenes/morosmobile.jpg" media="(max-width:480px)"/>
+ <source srcset="imagenes/morostablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/morosycristianos.jpg" alt="Plato de comida moros y cristianos" />
+ </picture>
+ <h4>Moros y Cristianos</h4>
+ <p>Es una combinación de arroz y frijoles. También acompaña a este plato un sofrito de verduras que lleva pimiento, cebolla, ajo y orégano. Es un plato muy consistente así que no piques mucho antes de probar esta comida.</p>
+ </div>
+ <div id="tasajo">
+ <picture>
+ <source srcset="imagenes/tasajomobile.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/tasajotablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/tasajo.jpg" alt="Plato de comida tasajo" />
+ </picture>
+ <h4>Tasajo</h4>
+ <p>Esta comida típica se elabora con carne de caballo. Después de salarse, la carne se deja secar al sol o al humo para conseguir el sabor y aspecto finales. Como guarnición suele llevar ensalada de aguacate o plátano frito.</p>
+ </div>
+ </div>
+ 
+ </section>
+ 
+</main>
+
+<footer>
+
+ <ul id="redes">
+    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+	<li id="yt"><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+ </ul>
+ <p>¡Seguinos en nuestras redes!</p>
+
+ <p>&copy;Todos los derechos reservados</p>
+ 
+</footer>
+
+</div>
+
+ <script src="recursos/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

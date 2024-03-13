@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	
+	<title>La Habana, Cuba</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<header id="amarillo">
+	<h1>La Habana</h1>
+  <nav>	
+   <a href="#menu" id="menuham">Menu</a>
+	 <ul id="menu">
+	   <li><a href="#"><span id="cerrar">x</span></a></li>
+	   <li><a href="index.html" class="aqui">Inicio</a></li>
+		 <li><a href="itinerario.html">Itinerario</a></li>
+		 <li><a href="informacion.html">Información</a></li>
+		 <li><a href="contacto.html">Contacto</a></li>
+	 </ul>
+  </nav>
+</header>
+
+ <div class="portada">
+ <div id="banner" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="200">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="navega a la imagen de portada 1"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="navega a la imagen de portada 2"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="navega a la imagen de portada 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobilehome.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tablethome.jpg">
+      <img src="imagenes/portadahome2.jpg" class="d-block w-100" alt="tipicas casas de La Habana vista de frente">
+      </picture>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobilehome2.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tablethome1.jpg">
+      <img src="imagenes/portadahome3.jpg" class="d-block w-100" alt="tipicas casas de La Habana vista de costado">
+      </picture>
+    </div>
+      
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobilehome3.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tablethome2.jpg"> 
+      <img src="imagenes/portadahome4.jpg" class="d-block w-100" alt="tipicas casas de La Habana desde otra perspectiva">
+      </picture>
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+
+<main> 
+ 
+ <p>Visita La Habana por su cultura, su música (ofrece estilos como la habanera, el mambo y el hip-hop cubano moderno), sus comidas (ricas y abundantes), sus festivales y sus vistas.<br/>
+ <span class="negrita">Pasear por sus calles es una experiencia mágica.</span></p>
+ 
+ <ul id="iconosh">
+  <li id="ub"><a href="#ubi">Ubicación</a></li>
+	<li id="hab"><a href="#habi">Habitantes</a></li>
+	<li id="vid"><a href="#vide">Video</a></li>
+ </ul>
+
+<section id="ubi">
+
+ <picture id="mapa">
+ <source srcset="imagenes/mapamobile2.png" media="(max-width:480px)" />
+ <source srcset="imagenes/mapatablet.png" media="(max-width:800px)" />
+ <img src="imagenes/mapa.png" alt="mapa de Cuba marcando La Habana" />
+ </picture>
+ 
+ <h2>Ubicación</h2>
+ 
+ <p><strong class="sinnegrita">La Habana, capital de la República de Cuba, es su urbe más grande, el principal puerto, su centro económico-cultural y uno de los lugares turísticos más populares del Caribe.</strong></p>
+
+</section> 
+
+<section id="habi">
+
+<picture id="cubana">
+<source srcset="imagenes/habitantesm.jpg" media="(max-width:480px)" />
+<source srcset="imagenes/habitantest.jpg" media="(max-width:800px)" />
+<img src="imagenes/habitantes1.jpg" alt="Mujer Cubana" />
+</picture>
+
+<h2>Habitantes</h2>
+
+<p>Cuenta con 2,1 millones de habitantes alegres y receptivos, y posee una historia increíblemente rica.</p><br/>
+<p>Una cultura que ha dado de hablar en todo el mundo.<br/> Las influencias africanas y caribeñas pueden sentirse en todas partes.</p>
+
+</section>
+
+<section id="vide">
+
+ <h2>Descubrí La Habana</h2>
+ 
+  <div id="video">
+  <iframe src="https://www.youtube.com/embed/h-SbONtuKn8" title="YouTube video player" allowfullscreen></iframe>
+  </div>
+  
+</section>
+
+</main>
+
+<footer>
+
+ <ul id="redes">
+    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+	<li id="yt"><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+ </ul>
+ <p>¡Seguinos en nuestras redes!</p>
+
+ <p>&copy;Todos los derechos reservados</p>
+ 
+</footer>
+  
+</div>	
+
+<script src="recursos/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

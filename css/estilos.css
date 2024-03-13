@@ -1,0 +1,1814 @@
+main, nav, header, footer{display:block;}
+
+body{
+ background-color:gray;
+ margin:0px;
+ padding:0px;
+}
+
+.contenedor{
+   width:1280px;
+   border-style:solid;
+   border-color:white;
+   margin:auto;
+   background-color:white;
+}
+
+.portada{
+  margin-left:56px;
+  display:block;
+  margin-top:-400px;
+}
+
+#amarillo{background-color:#ffcc00;}
+
+#amarillograx{
+ background-color:#ffcc00;
+ padding-top:1px;
+}
+
+#naranja{background-color:#cc9900;}
+
+#rosa{background-color:#ff99ff;}
+
+#celeste{background-color:#009999;}
+
+header{height:507px;}
+
+#menuham{font-size:0px;}
+
+nav ul li{
+  font: normal 20px 'Staatliches', cursive;
+  list-style-type:none;
+  text-align:center;
+  width: 171px;
+  display:inline-block;
+}
+
+nav li:first-of-type{
+ font-size:0px;
+ margin-left:-220px;
+}
+
+a{
+ text-decoration:none;
+ color:black;
+}
+
+a:hover{color:white;}
+
+.aqui{text-decoration:underline;}
+
+nav{
+ margin-left:287px;
+ margin-top:-70px;
+}
+
+h1{
+ font-size: 0px;
+ background-image:url(../imagenes/logoportada.png);
+ background-repeat: no-repeat;
+ width:99px;
+ height:53px;
+ margin-left:56px;
+ margin-top:25px;
+ display:inline-block;
+}
+
+main > p{
+ font: 16px 'Noto Sans TC', sans-serif;
+ text-align:center;
+ width:510px;
+ margin:30px 0px -30px 390px;
+}
+
+.sinnegrita{font-weight:normal;}
+
+.sinitalic{font-style:normal;}
+
+.negrita{font-weight:bold;}
+
+#iconosh{
+ text-align:center;
+ margin-bottom:54px;
+}
+
+#iconosh li{
+ display:inline-block;
+ margin-top:40px;
+ margin-right:35px;
+}
+
+#iconosh li a{
+  display:inline-block;
+  background:url(../imagenes/iconoshome.png);
+  width:99px;
+  height:99px;
+  font-size:0px;
+}
+
+#iconosh #hab a{background-position:-99px 0px;}
+
+#iconosh #vid a{background-position:-198px 0px;}
+
+#ubi h2{
+ font:25px 'Staatliches', cursive;
+ margin-top:50px;
+}
+
+#ubi h2 + p{
+ font:16px 'Noto Sans TC', sans-serif;
+ width:431px;
+ display:inline-block;
+ margin-top:-10px;
+}
+
+#ubi h2:first-of-type{margin-left:725px;}
+
+#mapa{
+ margin-left:55px;
+ display:inline-block;
+ margin-top:-5px;
+ margin-right:70px;
+ float:left;
+}
+
+#ubi{
+ background-color:#ffcc00;
+ padding-top:39px;
+ padding-bottom:89px;
+ margin:0px;
+ height:315px;
+}
+
+#cubana{
+ display:inline-block;
+ float:right;
+ margin-right:154px;
+ margin-top:-80px;
+}
+
+#habi{height:198px;}
+
+#habi h2{
+ margin:111px 0px 30px 255px; 
+ font:25px 'Staatliches', cursive;
+}
+
+#habi p{
+  margin-left:255px;
+  margin-top:-20px;
+  font:16px 'Noto Sans TC', sans-serif;
+  width:470px;
+}
+
+#vide{
+ background-color:#ffcc00;
+ margin-bottom:-16px;
+}
+
+#video{
+ position:relative;
+ width:100%;
+ padding-bottom:56.25%;
+ max-width:900px;
+ margin:0 auto;
+}
+
+#video iframe{
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:90%;
+}
+
+#vide h2{
+ padding-top:27px;
+ margin-left:550px;
+ font:25px 'Staatliches', cursive;
+ margin-top:111px;
+}
+
+/* Itinerario */
+
+.txtintro{
+  margin:45px 0px -30px 255px;
+  width:770px;
+}
+
+.txtintro > p{
+  font:16px 'Noto Sans TC', sans-serif;
+  text-align:center;
+  margin-top:-12px;
+}
+
+#iconosit{
+  text-align:center;
+  margin-bottom:54px;  
+}
+
+#iconosit li{
+  display:inline-block;
+  margin-top:25px;
+  margin-right:50px;
+}
+
+#iconosit li a{
+  display:inline-block;
+  background:url(../imagenes/iconosit.png);
+  width:99px;
+  height:99px;
+  font-size:0px;
+}
+
+#iconosit #elm a{background-position:-99px 0px;}
+
+#iconosit #elc a{background-position:-198px 0px;}
+
+#iconosit #casm a{background-position:-297px 0px;}
+
+#iconosit #grant a{background-position:-396px 0px;}
+
+ol li{list-style-type:none;}
+
+ol #hv{
+ background-color:#cc9900;
+ margin-left:-32px;
+ height:372px;
+}
+
+.imgizq{
+  margin-left:55px;
+  display:inline-block;
+  float:left;
+  margin-top:34px;
+}
+
+.txtder h2{
+  display:inline-block;
+  font:25px 'Staatliches', cursive;
+  margin:48px 513px -6px 0px;
+  float:right;
+}
+
+.txtder p{
+ width:570px;
+ font:16px 'Noto Sans TC', sans-serif;
+ margin: 15px 86px -6px 0px;
+ float:right;
+}
+
+.imgder{
+  margin-right:55px;
+  display:inline-block;
+  float:right;
+  margin-top:34px;
+}
+
+.txtizq h2{
+ font:25px 'Staatliches', cursive;
+ margin-left:53px;
+ padding-top:50px;
+}
+
+.txtizq p{
+ width:570px;
+ font:16px 'Noto Sans TC', sans-serif;
+ margin-top:15px;
+ margin-left:52px;
+}
+
+ol #em{
+ height: 370px;
+ margin-bottom:8px;
+ margin-top: 5px;
+}
+
+ol #ec{
+ background-color:#cc9900;
+ margin-left:-32px;
+ height:372px;
+}
+
+#ec h2{
+ margin-right:545px;
+ margin-top:65px;
+}
+
+#cdm{
+ margin-top:2px;
+ height: 373px;
+}
+
+#cdm h2{padding-top:100px;}
+
+ol #gt{
+ background-color:#cc9900;
+ height:372px;
+ margin-left:-32px;
+}
+
+#gt h2{margin-right:416px;}
+
+#gt{margin-bottom:-16px;}
+
+/*Informacion*/
+
+#iconosinfo{
+ text-align:center;
+ margin-bottom:54px;
+}
+
+#iconosinfo li{
+ display:inline-block;
+ margin-top:25px;
+ margin-right:40px;
+}
+
+#iconosinfo li a{
+ display:inline-block;
+ background:url(../imagenes/iconosinfo.png);
+ width:99px;
+ height:99px;
+ font-size:0px;
+}
+
+#iconosinfo #mon a{background-position:-99px 0px;}
+
+#iconosinfo #cuanvi a{background-position:-198px 0px;}
+
+#iconosinfo #aloja a{background-position:-297px 0px;}
+
+#iconosinfo #transp a{background-position:-396px 0px;}
+
+#iconosinfo #donco a{background-position:-495px 0px;}
+
+#tra{
+ background-color:#ff99ff;
+ height:316px;
+}
+
+#tra .imgizq{
+  margin-top:37px;
+  margin-left:130px;
+}
+
+#tra .txtder h2{
+ margin-top:95px;
+ margin-right:510px;
+ }
+ 
+#tra .txtder p{margin-right:100px;}
+
+#mda{height:316px;}
+
+#mda .imgder{
+ margin-top:38px;
+ margin-right:115px;
+}
+
+#mda .txtizq h2{margin-left:130px;}
+
+#mda .txtizq p{margin-left:130px;}
+
+#cdo{
+ background-color:#ff99ff;
+ height:880px;
+}
+
+#cdo h2{
+ margin-left:500px;
+ padding-top:38px;
+ font-family:'Staatliches', cursive;
+ font-size: 25px;
+}
+
+#cdo p{
+ width:971px;
+ font: 16px 'Noto Sans TC', sans-serif;
+ margin-left:155px;
+}
+
+#cdo h3{
+  font:20px 'Staatliches', cursive;
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+article{
+   width:293px;
+   height:510px;
+   border-style:solid;
+   border-color:#B359B3;
+   margin-left:100px;
+   padding:10px 16px;
+   background-color:white;
+}
+
+article img{
+     text-align:center;
+     margin-bottom: 10px;
+}
+
+#cdo article p{
+     width:253px;
+     font-size:15px;
+     margin-left:0px;
+}
+
+article ul{
+ text-align:center;
+ margin-right:10px;
+ padding:-100px;
+}
+
+article ul li{
+    background-color:#B359B3;
+    font-size:15px;
+    color:white;
+    width:250px;
+	  list-style-type:none;
+	  text-align:center;
+	  display:inline-block;
+	  padding:5px;
+    margin-bottom:5px;
+	  margin-left:-30px;
+}
+
+article a{
+ text-decoration:none;
+ color:white;
+}
+
+article a:hover{color:#ff99ff;}
+
+article:nth-of-type(2){
+         display:inline-block;
+         float:right;
+         width:293px;
+         height:510px;
+         margin-top:-510px;
+         margin-right:478px;
+}
+
+article:nth-of-type(3){
+        display:inline-block;
+        float:right;
+        width:293px;
+        height:510px;
+        margin-top:-510px;
+        margin-right:100px;
+}
+
+h4{
+  margin-left:0px;
+  font: bold 18px 'Staatliches', cursive;
+}
+
+#al .imgizq{
+  margin-top:72px;
+  margin-left:100px;
+  margin-bottom:50px;
+}
+
+#al .txtder h2{
+ margin-top:40px;
+ margin-right:523px;
+}
+
+#al .txtder p{margin-right:100px;}
+
+.txtder h3{
+  display:inline-block;
+  margin:20px 524px -6px 0px;
+  font:20px 'Staatliches', cursive;
+  float:right;
+}
+
+.fotosinfo{
+ display:inline-block;
+ margin-top:20px;
+}
+
+.fotosinfo figure{
+ display:inline-block;
+ text-align:center;
+ margin: 10px 38px 40px 38px;
+}
+
+figure:first-of-type{
+ margin-left:60px;
+ background-image:url(../imagenes/fondoimg.jpg);
+}
+
+figure:nth-of-type(2){background-image:url(../imagenes/fondoimg.jpg);}
+
+figure:last-of-type{background-image:url(../imagenes/fondoimg.jpg);}
+
+#trans{
+ background-color:#ff99ff;
+ height:610px;
+}
+
+#trans h2{
+ font-family:'Staatliches', cursive;
+ font-size: 25px;
+ text-align:center;
+ padding-top:40px;
+}
+
+#trans p{
+ width:971px;
+ font: 16px 'Noto Sans TC', sans-serif;
+ margin-left:150px;
+}
+
+#taxi{
+ display:inline-block;
+ margin-left:60px;
+ margin-right:80px;
+}
+
+#taxi p{
+ width:330px;
+ margin-left:0px;
+}
+
+#guagua{
+ display:inline-block;
+ margin-right:80px;
+}
+
+#guagua p{
+ width:330px;
+ margin-left:0px;
+}
+
+#bicitaxi{display:inline-block;}
+
+#bicitaxi p{
+ width:330px;
+ margin-left:0px;
+}
+
+#trans .fotosinfo h3{
+ font-family:'Staatliches', cursive;
+ font-size:20px;
+ margin-top: 20px;
+}
+
+#trans .fotosinfo p{font: 15px 'Noto Sans TC', sans-serif;}
+
+#dnd h2{
+ font-family:'Staatliches', cursive;
+ font-size: 25px;
+ text-align:center;
+ margin-top:40px;
+}
+
+#dnd p{
+ width:971px;
+ font: 16px 'Noto Sans TC', sans-serif;
+ margin-left:150px;
+}
+
+#dnd h3{
+ font-size:20px;
+ text-align:center;
+ font-family:'Staatliches', cursive;
+}
+
+#infocomida{
+ display:inline-block;
+ margin-left:60px;
+ margin-top:20px;
+ margin-bottom: 26px;
+}
+
+#infocomida h4{
+ margin-top:20px;
+ margin-left:0px;
+}
+
+#infocomida p{
+ width:330px;
+ font: 15px 'Noto Sans TC', sans-serif;
+ margin-top:-6px;
+ margin-left:0px;
+}
+
+#infocomida #ropavieja{
+ display:inline-block;
+ margin-right:80px;
+}
+
+#infocomida #moros{
+ display:inline-block;
+ margin-right:80px;
+}
+
+#infocomida #tasajo{display:inline-block;}
+
+/* Contacto */
+
+form{
+   background-color:#009999;
+   font-family: Arial;
+   color:white;
+   width:800px;
+   margin:80px 0px 32px 235px;
+   border:5px solid #008080;
+}
+
+.datos{
+    display:inline-block;
+    margin-left:260px;
+    margin-top:30px;
+}
+
+#comentario{margin:30px 200px 10px 260px;}
+
+input{width:200px;}
+
+form span{margin-right:10px;}
+
+#pregunta{margin-right:200px;}
+
+label input{width:20px;}
+
+#opcizq{
+    display:inline-block;
+    float:left;
+    margin-top:20px;
+    margin-left:270px;
+}
+
+#opcizq div {padding:5px;}
+
+#opcder div{padding:5px;}
+
+#opcder{
+    display:inline-block;
+    float:right;
+	margin:19px 250px 20px 0px;
+}
+
+#comentario{margin-bottom:10px;}
+
+textarea{
+    height:300px;
+    width:400px;
+    resize:none;
+    margin-left:198px;
+	  margin-top:10px;
+}
+
+input[id="enviar"]{
+     margin:20px 0px 20px 320px;
+     width:150px;  
+}
+
+input[type="tel"]{margin-left:-3px;}
+
+input[type="email"]{margin-left:18px;}
+
+input[name="desde"]{margin-left:12px;}
+
+input[name="hasta"]{margin-left:17px;}
+
+input[type="file"]{margin:10px 0px 20px 258px;}
+
+/* Gracias */
+
+#grax{
+ border: 3px solid #ffcc00;
+ margin:32px 0px 32px 390px;
+ width:500px;
+ padding:30px;
+ background:url(../imagenes/dibujo.png) right bottom no-repeat;
+}
+
+#graxtit{
+  font-size:30px;
+  color:black;
+  text-align:center;
+}
+
+#grax p{
+ margin-top:10px;
+ font:16px 'Noto Sans TC', sans-serif;
+ text-align:center;
+}
+
+#grax h2{font-family: 'Staatliches', cursive;}
+
+/*Footer*/
+
+footer{
+ height:200px;
+ background: #ffcc99 url(../imagenes/logo.png) 392px 45px no-repeat;
+}
+
+#redes li{display:inline-block;}
+
+#redes li a{
+  display:inline-block;
+  background:url(../imagenes/redes2.png);
+  width:42px;
+  height:42px;
+  font-size:0px;
+  margin-right:20px;
+}
+
+#redes #fb{
+ margin-left:704px;
+ margin-top:70px;
+}
+
+#redes #fb a:hover{background-position: 0px -42px;}
+
+#redes #tw a{background-position:-42px 0px;}
+
+#redes #tw a:hover{background-position: -42px -42px;}
+
+#redes #yt a{background-position:-84px 0px;}
+
+#redes #yt a:hover{background-position: -84px -42px;}
+
+footer p:first-of-type{
+ font-family:'Staatliches', cursive;
+ margin-left:736px;
+}
+
+footer p:last-of-type{
+ font-family:'Staatliches', cursive;
+ margin-left:374px;
+ margin-top:-30px;
+}
+
+@media screen and (max-width:800px){
+
+body{margin:0px;}
+
+.contenedor{
+  width:800px;
+  margin:auto;
+ }
+
+header{height:440px;}
+ 
+header h1{margin-left:350px;}
+
+.portada{margin: -340px 0px 0px 43px;}
+
+nav{margin-left:0px;}
+
+nav li:first-of-type{
+ font-size:0px;
+ margin-left:0px;
+}
+
+#menu{
+display: none;
+margin-left:0px;
+position:relative;
+z-index:5;
+}
+
+#menu:target{
+	width:220px; 
+	border:solid 2px black;
+	margin:0px;
+	margin-top:-35px;
+	background-color:black;
+	display:block;
+	position:absolute;
+}
+	
+#menu li{
+ font-size:18px;
+ padding:5px;
+ background-color:white;
+ margin:5px;
+}
+
+#menuham{
+ background:url(../imagenes/menuham.png) no-repeat;
+ width:36px;
+ height:36px;
+ display:inline-block;
+ font-size:0px;
+ position:relative;
+ margin-left:43px;
+ margin-top:25px;
+}
+
+#cerrar{
+ display:block;
+ margin-left:0px;
+ margin-left:150px;
+}
+
+a:hover{color:gray;}
+
+/* Home */ 
+
+main > p{
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+ text-align:center;
+ margin-top:35px;
+ margin-left:43px;
+ width:90%;
+}
+ 
+#iconosh{margin:15px 0px 48px 50px;} 
+
+#iconosh li a{margin-right:40px;}
+
+#ubi{height:570px;}
+ 
+#mapa{margin:12px 0px 20px 30px;}
+
+#ubi h2:first-of-type{
+ text-align:center;
+ font:30px 'Staatliches', cursive;
+ margin:0px 0px 14px 0px;
+} 
+
+#ubi h2 + p{
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ width:90%;
+ margin-left:43px;
+ margin-top:0px;
+}
+
+#habi{
+ height:615px;
+ padding-top:50px;
+}
+
+#cubana{margin:0px 30px 20px 0px;}
+
+#habi h2{
+ margin:0px 0px 15px 0px;
+ text-align:center;
+ font:30px 'Staatliches', cursive;
+}
+
+#habi p{
+ margin-top:0px;
+ margin-left:68px;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ width:90%;
+}
+
+#habi p:nth-of-type(2){margin-top:-20px;}
+
+#vide h2{
+ margin-left:0px;
+ text-align:center;
+ font:30px 'Staatliches', cursive;
+}
+
+/* Itinerario */
+
+.txtintro{
+ margin:50px 0px 0px 40px;
+ width:90%;
+}
+
+.txtintro > p{font:18px/35px 'Noto Sans TC', sans-serif;}
+
+#iconosit{ margin-bottom:46px;}
+
+#iconosit #habv{ margin-left:50px;}
+
+#iconosit #casm{margin-left:50px;}
+
+#iconosit li a{ margin-right:40px;}
+
+ol #hv{height:880px;}
+
+.imgizq{margin:48px 0px 20px 30px;}
+
+.txtder h2{
+ font:30px 'Staatliches', cursive;
+ margin:0px 330px 18px 0px;
+}
+
+.txtder p{
+ width:90%;
+ margin-right: 35px;
+ margin-bottom: 0;
+ margin-top: 0;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+ol #em{ height:850px;}
+
+.imgder{margin:42px 30px 20px 0px;}
+
+.txtizq h2{
+ margin:0px 0px 18px 0px;
+ text-align:center;
+ padding:0px;
+ font:30px 'Staatliches', cursive;
+}
+
+.txtizq p{
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ margin-left:25px;
+ margin-top:0px;
+}
+
+ol #ec{height:810px;}
+
+#ec h2{
+ margin-right:335px;
+ margin-top:0px;
+}
+
+#cdm{height:735px;}
+
+#cdm h2{
+ margin-left:0px;
+ margin-right:35px;
+}
+
+ol #gt{height:800px;}
+
+#gt h2{margin-right:270px;} 
+
+/* Itinerario */
+
+#iconosinfo{
+ margin-bottom:48px;
+ margin-top:5px;
+}
+
+#iconosinfo li a{margin-right:40px;}
+
+#iconosinfo #trapre{margin-left:40px;}
+
+#iconosinfo #aloja{margin-left:40px;}
+
+#tra{height:675px;}
+
+#tra .imgizq{margin:48px 0px 28px 30px;}
+
+#tra .txtder h2{margin:0px 305px 12px 0px;}
+
+#tra .txtder p{
+ margin-right:32px;
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#mda{height:775px;}
+
+#mda .imgder{margin:48px 30px 20px 0px;}
+
+#mda .txtizq h2{margin-left:6px;}
+
+#mda .txtizq p{margin: auto}
+
+#cdo{height:1355px;}
+
+#cdo h2{
+ font:30px 'Staatliches', cursive;
+ margin-left:0px;
+ padding-top:45px;
+ text-align:center;
+ margin-bottom:12px;
+}
+
+#cdo p{
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ margin-left:40px;
+ margin-top:0px;
+}
+
+#cdo h3{font:25px 'Staatliches', cursive;}
+
+article{
+ height:350px;
+ width:305px;
+ padding:10px 10px;
+}
+
+article ul li{
+ margin-top:0px;
+ width:250px;
+ font:16px 'Noto Sans TC', sans-serif;
+}
+
+#cdo article h4{
+ margin-bottom:20px;
+ text-align:center;
+ margin-left:0px;
+ margin-top:15px;
+ font: bold 20px 'Staatliches', cursive;
+}
+
+#cdo article p{
+ font-size:0px;
+ display:none;
+}
+
+article img{
+ margin-left:0px;
+ text-align:center;
+ margin-bottom:0px;
+}
+
+article:first-of-type{
+ display:inline-block;
+ margin:0px 0px 30px 60px;
+}
+
+article:nth-of-type(2){
+         display:inline-block;
+         width:305px;
+         height:350px;
+		     margin:0px 60px 30px 0px;	
+}
+
+article:nth-of-type(3){
+        display:inline-block;
+        width:305px;
+        height:350px;
+		    margin:0px 248px 0px 0px;
+}
+
+#al{height:1400px;}
+
+#al .imgizq{margin:48px 0px 30px 200px;}
+
+#al .txtder h2{
+ margin-top:0px;
+ margin-right:310px;
+ margin-bottom: 12px;
+}
+
+#al .txtder p{
+ margin-right:38px;
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+.txtder h3{
+ font:25px 'Staatliches', cursive;
+ margin:32px 310px 28px 0px;
+}
+
+.fotosinfo{
+ margin: auto;
+ padding: 0;
+}
+
+.fotosinfo figure{font:15px/35px 'Noto Sans TC', sans-serif;}
+
+figure:first-of-type{
+ margin-left:45px;
+ margin-right:5px;
+}
+
+figure:last-of-type{margin-left:234px;}
+
+#trans{
+  height:1975px;
+  margin: auto;
+  padding: 0;
+}
+
+#trans h2{
+ font:30px 'Staatliches', cursive;
+ padding-top:45px;
+ margin-bottom: 12px;
+}
+
+#trans p{
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ margin: auto;
+}
+
+#taxi, #guagua, #bicitaxi{
+  padding: 0;
+  margin: 20px auto;
+}
+
+#trans .fotosinfo h3{
+  font: 22px 'Staatliches', cursive;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+#taxi, #guagua, #bicitaxi{text-align: center;}
+
+#taxi p, #guagua p, #bicitaxi p{text-align: left}
+
+#dnd h2{
+ font:30px 'Staatliches', cursive;
+ margin-top:45px;
+ margin-bottom: 12px;
+}
+
+#dnd p{
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ margin-left:40px;
+ margin-bottom:0px;
+}
+
+#dnd .fotosinfo{margin-top:30px;}
+
+#dnd h3{
+  font:25px 'Staatliches', cursive;
+  margin-bottom: 20px;
+}
+
+#infocomida{margin: 0;}
+
+#infocomida #ropavieja, #infocomida #moros, #infocomida #tasajo{
+  text-align: center;
+  margin: 0;}
+
+#infocomida h4{
+ text-align:center;
+ font: bold 20px 'Staatliches', cursive;
+ margin-top:38px;
+ margin-bottom:20px;
+}
+
+#infocomida p{
+ width:90%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ text-align: center;
+ margin-bottom: 28px;
+}
+
+#tasajo p{margin-bottom: 42px;}
+
+/* Contacto */
+
+form{
+ width:98%;
+ margin: 40px 0px 45px 0px;
+}
+
+form span{font:18px 'Noto Sans TC', sans-serif;}
+
+.datos{margin-left:200px;}
+
+input{
+ width:300px;
+ height:30px;
+}
+
+label input{
+ width:25px;
+ padding:25px;
+}
+
+#opcizq{
+ margin:30px 0px 0px 200px;
+ font:18px 'Noto Sans TC', sans-serif;
+}
+
+amarillograx
+
+#opcder{
+ margin:30px 200px 0px 0px;
+ font:18px 'Noto Sans TC', sans-serif;
+}
+
+input[type="file"]{margin:20px 0px 20px 200px;}
+
+#comentario{margin-left:200px;}
+
+/* Gracias */
+
+#grax{margin: 50px auto;}
+
+/* Footer */
+
+footer{background: #ffcc99 url(../imagenes/logomobile.png) center 40px no-repeat;}
+
+footer p{font-size:0px;}
+
+#redes li{margin-top:110px;}
+
+#redes li a{margin-right:30px;}
+
+#redes #fb{margin-left:265px;}
+
+}
+
+@media screen and (max-width:480px){
+
+body{margin:0px;}
+
+.contenedor{
+  width:480px;
+  margin:auto;
+ }
+ 
+ header{height:250px;}
+ 
+.portada{
+ margin-left:24px;
+ margin-top:-150px;
+}
+
+nav{margin-left:0px;}
+
+nav li:first-of-type{
+ font-size:0px;
+ margin-left:0px;
+}
+
+#menu{
+ display: none;
+ margin-left:0px;
+ position:relative;
+ z-index:5;
+}
+
+#menu:target{
+	width:220px; 
+	border:solid 2px black;
+	margin-top:10px;
+	background-color:black;
+	display:block;
+	position:absolute;
+	}
+	
+#menu li{
+ font-size:18px;
+ padding:5px;
+ background-color:white;
+ margin:5px;
+}
+
+#menuham{
+ background:url(../imagenes/menuham.png) no-repeat;
+ width:36px;
+ height:36px;
+ display:inline-block;
+ font-size:0px;
+ position:relative;
+ margin-left:24px;
+ margin-top:25px;
+}
+
+#cerrar{
+ display:block;
+ margin-left:0px;
+ margin-left:150px;
+}
+
+h2 h3{text-align:center;}
+
+a:hover{color:gray;}
+
+ /*home*/
+ 
+header h1{margin-left:200px;}
+
+main > p{
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+ text-align:center;
+ margin-top:20px;
+ margin-left:23px;
+ width:90%;
+}
+
+#ubi{
+height:480px;
+padding:0px;
+margin: auto;
+}
+
+#ubi h2:first-of-type{text-align:center;}
+
+#mapa{
+ text-align:center;
+ margin: 32px auto;
+}
+
+#ubi h2 + p{
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+ display:inline-block;
+ width:96%;
+ margin-left:5px;
+}
+
+#iconosh{
+ text-align:center;
+ margin-bottom:45px;
+ margin-left:20px;
+}
+
+#iconosh li{
+ display:inline-block;
+ margin-top:25px;
+ margin-right:60px;
+}
+
+#iconosh li a{
+  display:inline-block;
+  background:url(../imagenes/iconosmobile.png);
+  width:61px;
+  height:61px;
+  font-size:0px;
+  margin-right:0px;
+}
+
+#iconosh #hab a{background-position:-61px 0px;}
+
+#iconosh #vid a{background-position:-122px 0px;}
+
+#habi{
+ height:640px;
+ padding-top:32px;
+}
+
+#cubana{margin:0px 5px 20px 0px;}
+
+#habi h2{margin:0px 0px 20px 0px;}
+
+#habi p{
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+ width:100%;
+ display:inline-block;
+ margin-left:5px;
+}
+
+#habi p:nth-of-type(2){margin-top:0px;}
+
+#vide{height:365px;}
+
+#vide h2{
+ margin:0px 0px 22px 0px;
+ text-align:center;
+}
+
+#video{
+ width:100%;
+ margin:0px;
+}
+
+/* Itinerario */
+
+.txtintro{
+ width:90%;
+ margin:38px 0px 0px 23px;
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#iconosit{
+  margin-bottom:22px;
+  margin-top:28px;
+}
+
+#iconosit li{
+  margin-top:0px;
+  text-align:center;
+}
+
+#iconosit #habv{margin-left:0px;}
+
+#iconosit #casm{margin-left:0px;}
+
+#iconosit li a{
+ background:url(../imagenes/iconosmobileit.png);
+ width:61px;
+ height:61px;
+ margin:10px;
+}
+
+#iconosit #elm a{background-position:-61px 0px;}
+
+#iconosit #elc a{background-position:-122px 0px;}
+
+#iconosit #casm a{background-position:-183px 0px;}
+
+#iconosit #grant a{background-position:-244px 0px;}
+
+.imgizq{margin: 32px 0 18px 2px;}
+
+.imgder{margin:0px 2px 0px 0px;}
+
+.txtder p{margin:auto;}
+
+.txtizq p{margin: auto}
+
+ol #hv{height:860px;}
+
+#hv .txtder h2{margin:4px 152px 14px 0px;}
+
+#hv .txtder p{
+ margin-top:0px;
+ margin-left:0px;
+ margin-right:8px;
+ width:96%;
+ font: 18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#hv .imgizq{margin-top: 35px;}
+
+ol #em{height:865px;}
+
+#em .imgder{
+ margin-top:15px;
+ margin-bottom:22px;
+}
+
+#em .txtizq h2{margin: 20px 30px 12px 0px;}
+
+#em .txtizq p{
+ width:100%;
+ margin: 0 0 0 -18px;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+ol #ec{height:820px;}
+
+#ec .imgizq{margin-top: 34px;}
+
+#ec .txtder h2{margin:2px 175px 10px 0px;}
+
+#ec .txtder p{
+ margin:0px 5px 0px 0px;
+ width:97%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+ol #cdm{
+ margin-top:30px;
+ height:690px;
+}
+
+#cdm .imgder{margin-bottom:24px;}
+
+#cdm .txtizq h2{margin:0px 38px 14px 0px;}
+
+#cdm .txtizq p{
+ margin-right:0px;
+ margin-left:-15px;
+ width:100%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+ol #gt{height:855px;}
+
+#gt .txtder h2{margin:0px 95px 14px 0px;}
+
+#gt .txtder p{
+ margin-right:4px;
+ width:97%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#gt .imgizq{margin-top: 32px;}
+
+/* Informacion */
+
+#iconosinfo{margin:28px 0px 30px 0px;}
+
+#iconosinfo li{
+ margin-top:0px;
+ margin-bottom:5px;
+}
+
+#iconosinfo #trapre{margin-left:0px;}
+
+#iconosinfo #aloja{margin-left:0px;}
+
+#iconosinfo li a{
+ background:url(../imagenes/iconosmobileinfo.png);
+ width:61px;
+ height:61px;
+ margin:10px;
+}
+
+#iconosinfo #mon a{background-position:-61px 0px;}
+
+#iconosinfo #cuanvi a{background-position:-122px 0px;}
+
+#iconosinfo #aloja a{background-position:-183px 0px;}
+
+#iconosinfo #transp a{background-position:-244px 0px;}
+
+#iconosinfo #donco a{background-position:-305px 0px;}
+
+#tra{height:620px;}
+
+#tra .imgizq{
+ margin-left:2px;
+ margin-top:34px;
+}
+
+#tra .txtder h2{margin:0px 140px 12px 0px;}
+
+#tra p, #mda p, #cdo p, #trans p{
+ margin: auto;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#mda{height:755px;}
+
+#mda .imgder{
+ margin-top:34px;
+ margin-right:2px;
+ margin-bottom:22px;
+}
+
+.txtizq{margin: auto;}
+
+#mda .txtizq h2{
+ margin-left:0px;
+ margin-top:0px;
+ margin-bottom:14px;
+}
+
+#cdo{
+ height:2155px;
+ padding:0px;
+ margin-top:0px;
+}
+
+#cdo h2{
+ margin-left:0px;
+ margin-bottom:16px;
+ padding-top: 30px;
+}
+
+#cdo h3{
+ font: 22px 'Staatliches', cursive;
+ margin-bottom:30px;
+ margin-top: 30px;
+}
+
+article{
+ height:420px;
+ width:425px;
+ padding:10px 10px;
+}
+
+article ul li{
+ margin-top:0px;
+ width:300px;
+ font:16px 'Noto Sans TC', sans-serif;
+}
+
+#cdo article h4{
+ margin-bottom:20px;
+ text-align:center;
+ margin-left:0px;
+ margin-top:15px;
+ font: bold 20px 'Staatliches', cursive;
+}
+
+#cdo article p{
+ font-size:0px;
+ display:none;
+}
+
+article img{
+ margin-left:0px;
+ text-align:center;
+ margin-bottom:0px;
+}
+
+article:first-of-type{
+ display:inline-block;
+ margin:0px 0px 30px 29px;
+}
+
+article:nth-of-type(2){
+         display:inline-block;
+         width:425px;
+         height:420px;
+		     margin:0px 20px 30px 0px;	
+}
+
+article:nth-of-type(3){
+        display:inline-block;
+        width:425px;
+        height:420px;
+		    margin:0px 20px 0px 0px;
+}
+
+#al{height:1798px;}
+
+#al .txtder h2{margin:10px 165px 18px 0px;}
+
+#al .txtder p{
+ margin-right:6px;
+ margin-left:0px;
+ width:97%;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#al .txtder h3{
+ margin-right:162px;
+ margin-bottom:16px;
+ font: 22px 'Staatliches', cursive;
+}
+
+#al .fotosinfo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#al .imgizq{margin:35px 0px 18px 40px;}
+
+figcaption{font:16px 'Noto Sans TC', sans-serif;}
+
+figure:first-of-type{
+ margin-left:0px;
+ margin-right:0px;
+ background-image:url(../imagenes/fondoimg.jpg);
+}
+
+figure:last-of-type{
+ margin-left:0px;
+ margin-right:0px;
+}
+
+#trans{height:1886px;}
+
+#trans h2{
+ text-align:center;
+ margin-bottom:18px;
+ margin-top:0px;
+ padding-top:34px;
+}
+
+#taxi, #guagua, #bicitaxi{
+  padding: 0;
+  margin: 15px auto;
+}
+
+#trans .fotosinfo h3{font: 22px 'Staatliches', cursive;}
+
+#dnd{height:3250px;}
+
+#dnd h2{
+ margin-bottom:18px;
+ margin-left:0px;
+ margin-top:35px;
+}
+
+#dnd p{
+width:97%;
+margin-left:8px;
+font:18px/35px 'Noto Sans TC', sans-serif;
+}
+
+#dnd h3{
+ font: 22px 'Staatliches', cursive;
+ margin-top:0px;
+ margin-bottom:30px;
+}
+
+#dnd .fotosinfo{
+  margin-top:10px;
+  text-align: center;
+}
+
+#infocomida{
+ margin-right:0px;
+ margin-left:0px;
+}
+
+#infocomida #ropavieja{margin-left:0px;}
+
+#infocomida #moros{margin-left:0px;}
+
+#infocomida #tasajo{margin-left:0px;}
+
+#infocomida h4{
+ font: bold 20px 'Staatliches', cursive;
+ margin:28px 0px 22px 0px;
+}
+
+#infocomida p{
+ width:97%;
+ margin-left:10px;
+ margin-bottom:24px;
+ font:18px/35px 'Noto Sans TC', sans-serif;
+ text-align: left;
+}
+
+#tasajo p{width:97%;}
+
+/* Contacto */
+
+.txtintro > p{
+  font:18px/35px 'Noto Sans TC', sans-serif;
+  text-align:center;
+}
+
+form{
+ width:98%;
+ margin-left:0px;
+ margin-bottom: 30px;
+}
+
+form span{font:18px 'Noto Sans TC', sans-serif;}
+
+.datos{margin-left:42px;}
+
+input{
+ width:300px;
+ height:30px;
+}
+
+#opcizq{
+ margin:20px 0px 0px 30px;
+ font:18px 'Noto Sans TC', sans-serif;
+}
+
+label input{
+ width:30px;
+ padding:30px;
+}
+
+#opcder{
+ margin:20px 30px 0px 0px;
+ font:18px 'Noto Sans TC', sans-serif;
+}
+
+#opcizq div{padding:15px;}
+
+#opcder div{padding:15px;}
+
+input[type="file"]{margin:10px 0px 20px 42px;}
+
+#comentario{margin-left:42px;}
+
+textarea{
+    height:300px;
+    width:400px;
+    resize:none;
+	  margin:10px 0px 0px 33px;
+}
+
+input[id="enviar"]{
+     margin:20px 0px 20px 160px;
+     width:150px; 
+}
+
+input[type="submit"]{
+  width: 80%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+/* Gracias */ 
+
+#grax{
+width:400px;
+margin: 32px auto;
+}
+
+/* Footer */
+
+footer{background: #ffcc99 url(../imagenes/logomobile.png) center 40px no-repeat;}
+
+footer p{font-size:0px;}
+
+#redes{margin-left:120px;}
+
+#redes li{margin-top:110px;}
+
+#redes li a{
+  display:inline-block;
+  background:url(../imagenes/redesmobile.png);
+  width:35px;
+  height:35px;
+  font-size:0px;
+  margin-right:20px;
+}
+
+#redes #fb{margin:0px;}
+
+#redes #fb a:hover{background-position: 0px -35px;}
+
+#redes #tw a{background-position:-35px 0px;}
+
+#redes #tw a:hover{background-position: -35px -35px;}
+
+#redes #yt a{background-position:-70px 0px;}
+
+#redes #yt a:hover{background-position: -70px -35px;}
+
+}
+

@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Itinerario</title>
+	
+   <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css" />
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	
+	
+</head>
+<body>
+
+<div class="contenedor">
+ 
+<header id="naranja">
+  <h1>Imperdible</h1>
+ <nav>
+    <a href="#menu" id="menuham">Menu</a>
+    <ul id="menu">
+	   <li><a href="#"><span id="cerrar">x</span></a></li>
+  	   <li><a href="index.html">Inicio</a></li>
+		<li><a href="itinerario.html" class="aqui">Itinerario</a></li>
+		<li><a href="informacion.html">Información</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+    </ul>
+ </nav> 
+</header>
+
+<div class="portada">
+ <div id="banner" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="200">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="navega a la imagen de portada 1"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="navega a la imagen de portada 2"></button>
+    <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="navega a la imagen de portada 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileit.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletit.jpg">
+      <img src="imagenes/portadait.jpg" class="d-block w-100" alt="Vista de la ciudad de La Habana desde arriba">
+      </picture>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileit2.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletit1.jpg">
+      <img src="imagenes/portadait2.jpg" class="d-block w-100" alt="Vista de la Plaza Vieja La Habana desde arriba">
+      </picture>
+    </div>
+      
+    <div class="carousel-item" data-bs-interval="5000">
+      <picture>
+      <source media="(max-width:480px)" srcset="imagenes/mobileit3.jpg">
+      <source media="(max-width:800px)" srcset="imagenes/tabletit2.jpg"> 
+      <img src="imagenes/portadait3.jpg" class="d-block w-100" alt="Vista de la ciudad desde el Malecón">
+      </picture>
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+
+<main>
+
+<section>
+<div class="txtintro">
+<p>La Habana se ganará un lugar en tu corazón, con sus innumerables facetas.<br/>
+Aquí te sugerimos algunos de los lugares que consideramos imperdibles por su relevancia histórica y cultural, que no podés dejar de conocer si vas a esta magnífica ciudad caribeña.</p>
+<p>Para conocer la ciudad mínimamente se necesita disponer de al menos tres días, aunque lo recomendable es visitarla una semana.</p>
+</div>
+
+<ul id="iconosit">
+   <li id="habv"><a href="#hv">La Habana Vieja</a></li>
+   <li id="elm"><a href="#em">El Malecón</a></li>
+   <li id="elc"><a href="#ec">El Capitolio</a></li>
+   <li id="casm"><a href="#cdm">Castillo del Morro</a></li>
+   <li id="grant"><a href="#gt">Gran Teatro de La Habana</a></li>
+</ul>
+
+<ol>
+ <li id="hv">
+ <picture class="imgizq">
+ <source srcset="imagenes/hv.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/hvtablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/hv.jpg" alt="Tipicas casas de La Habana Vieja" />
+ </picture>
+ <div class="txtder">
+ <h2>La Habana Vieja</h2>
+ <p>Declarada Patrimonio de la Humanidad por la <abbr title="United Nations Educational, Scientific and Cultural Organization">UNESCO</abbr> en 1982, es el casco histórico de la ciudad de La Habana.</p>
+ <p>En ella encontrarás todo tipo de monumentos antiguos, fortalezas, iglesias, palacios, etc., ya que se encuentra repleta de auténticas joyas arquitectónicas de diversas épocas.</p>
+ <p>Allí encontrarás: La Plaza de la Catedral, la Catedral de San Cristóbal, El Palacio de los Marqueses de Aguas Claras y el Palacio del Conde de Lombillo, el Museo de Arte Colonial, La Bodeguita del Medio, la Plaza de Armas, el Castillo de la Real Fuerza, entre otros.</p>
+ </div>
+ </li>
+ <li id="em">
+ <picture class="imgder">
+ <source srcset="imagenes/malecon.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/malecontablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/malecon.jpg" alt="Foto del Malecón" />
+ </picture>
+ <div class="txtizq">
+ <h2>El Malecón</h2>
+ <p>Este paseo que se extiende sobre la costa, de cerca de 8 <abbr title="Kilómetros">kms.</abbr> de largo, es también una de las avenidas más auténticas y famosas de Cuba. Goza de un ambiente especialmente apasionado durante el atardecer, desde aquí se pueden apreciar uno de los ocasos más bellos de la isla.</p>
+ <p>Durante las noches de verano el Malecón adquiere un ambiente extraordinario gracias al carnaval, donde se mezclan razas y costumbres con paseos de carrozas e incansables comparsas. Una gran fiesta donde el sonido tradicional de los tambores se mezcla con modernas canciones de salsa y reggaetón.</p>
+ </div>
+ </li>
+ <li id="ec">
+ <picture class="imgizq">
+ <source srcset="imagenes/capitolio.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/capitoliotablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/capitolio.jpg" alt="Foto del Capitolio" />
+ </picture>
+ <div class="txtder">
+ <h2>El Capitolio</h2>
+ <p>Situado en el centro de la capital del país, es una de las edificaciones más emblemáticas de la ciudad. Fue inspirado en el modelo del Panteón de París, San Pedro de Roma y el Capitolio de los Estados Unidos, pero un metro más alto y ancho, y mucho más rico en detalle.</p>
+ <p>Es uno de los centros turísticos más visitados de la ciudad, habiéndose convertido en uno de los íconos arquitectónicos de La Habana, aparece nombrado por algunos expertos como uno de los seis palacios de mayor relevancia a nivel mundial.</p>
+ </div>
+ </li>
+ <li id="cdm">
+ <picture class="imgder">
+ <source srcset="imagenes/delmorro.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/delmorrotablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/delmorro.jpg" alt="Castillo del Morro visto de frente" />
+ </picture>
+ <div class="txtizq">
+ <h2>Castillo de los Tres Reyes del Morro</h2>
+ <p>Fue erigido entre los años 1589 y 1630 con la finalidad de proteger la entrada al puerto de La Habana de piratas e invasores. El castillo ofrece unas impresionantes vistas panorámicas sobre el mar y la ciudad de La Habana al fondo. Esta fortificación actualmente alberga el Museo Marítimo y forma parte del Parque Histórico Militar Morro-Cabaña.</p>
+ </div>
+ </li>
+ <li id="gt">
+ <div class="imgizq">
+ <picture>
+ <source srcset="imagenes/teatro.jpg" media="(max-width:480px)" />
+ <source srcset="imagenes/teatrotablet.jpg" media="(max-width:800px)" />
+ <img src="imagenes/teatro.jpg" alt="Gran Teatro de La Habana visto de frente"/>
+ </picture>
+ </div>
+ <div class="txtder">
+ <h2>Gran Teatro Alicia Alonso</h2>
+ <p>Sede del Ballet y de la Ópera Nacional de Cuba, se encuentra emplazado en Centro Habana, sobre el Paseo Martí, justo al lado del Capitolio Nacional de Cuba. </p>
+ <p>Actualmente esta edificación forma un gran complejo cultural dotado de varias salas y es una de las instituciones culturales más importantes de América Latina. </p>
+ <p>Aparte de su historia y su bella arquitectura, el Gran Teatro de La Habana disfruta de una excelente acústica y en él se celebran magníficas actuaciones durante los fines de semana. </p>
+ </div>
+ </li>
+</ol>
+
+</section>
+
+</main>
+ 
+<footer>
+
+ <ul id="redes">
+    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+	<li id="yt"><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+ </ul>
+ <p>¡Seguinos en nuestras redes!</p>
+
+ <p>&copy;Todos los derechos reservados</p>
+ 
+</footer>
+ 
+</div>
+	
+ <script src="recursos/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
